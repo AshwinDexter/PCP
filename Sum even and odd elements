@@ -1,0 +1,16 @@
+public class Main{
+	public static void main(String[] args) {
+	int[] arr  = {1,23,45,32,31,21};
+	int even_sum = 0;
+    int odd_sum = 0;
+    for(int i : arr){
+        if(i%2==0){
+            even_sum += i;
+        }
+        else{
+            odd_sum += i;
+        }
+    }
+    System.out.println(even_sum +" "+ odd_sum); 
+	}
+}
